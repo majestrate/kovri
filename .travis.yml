@@ -17,5 +17,7 @@ addons:
 script: cd build && cmake ../ && make
 
 notifications:
-    email:
-        - anonimal@i2pmail.org
+    email: false
+    irc: "chat.freenode.net#kovri-dev"
+    nick: kovri-ci
+    password: 
